@@ -14,7 +14,7 @@ export default function HeroSection() {
       <div className="bg-[#e9f0ff] grid justify-items-center items-center gap-5 md:grid-cols-2">
         <div className="px-10">
           <div className="flex justify-center">
-            <Image src={Ellipse6} alt="Ellispse6" className="img-fluid" />
+            <Image src={Ellipse6} alt="Ellispse6" className="img-fluid hidden md:block" />
           </div>
           <h1 className="font-bold text-4xl leading-normal font-mono">
             Vaultt: Revolutionizing <br /> Healthcare Data Management <br />{" "}
