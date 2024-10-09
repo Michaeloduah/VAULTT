@@ -8,7 +8,7 @@ import Hospitals from "../../../public/images/Hospitals.png";
 import Staff from "../../../public/images/Staff.png";
 import Specialists from "../../../public/images/Specialists.png";
 
-export default function () {
+export default function HeroSection() {
   return (
     <>
       <div className="bg-[#e9f0ff] grid justify-items-center items-center gap-5 md:grid-cols-2">
