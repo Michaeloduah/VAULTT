@@ -1,7 +1,5 @@
 import { useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
-import Ellipse6 from "../../../public/images/Ellipse6.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,7 +18,6 @@ const Navbar = () => {
         </div>
 
         <div className="hidden lg:flex flex-grow justify-center space-x-8">
-          {/* <Image src={Ellipse6} alt="Ellipse6" /> */}
           <Link href="#" className="text-gray-700 font-semibold">
             Home
           </Link>
