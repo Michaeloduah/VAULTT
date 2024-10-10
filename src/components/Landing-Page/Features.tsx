@@ -7,7 +7,7 @@ import SecureStorage from "../../../public/images/SecureStorage.png";
 export default function Features() {
   return (
     <>
-      <div className="bg-[#e9f0ff] py-10">
+      <div className="bg-[#e9f0ff] py-10 md:py-20">
         <h1 className="text-center text-3xl font-black">Features</h1>
         <h1 className="text-center text-lg mt-3">
           Vaultt is a blockchain-based healthcare data management system powered
@@ -15,7 +15,7 @@ export default function Features() {
           control over their health data.
         </h1>
 
-        <div className="grid md:grid-cols-3 justify-items-center items-center gap-5 mx-16 mt-5">
+        <div className="grid md:grid-cols-3 justify-items-center items-center gap-5 md:mx-16 mx-5 mt-20">
           {/* Card 1 */}
           <div className="bg-gradient-to-t from-[#93bdeb] rounded-xl shadow-xl flex flex-col h-full">
             <div className="flex items-stretch gap-3 p-5 h-full">
