@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <nav className="bg-[#e9f0ff] sticky top-0 ">
-      <div className="container mx-auto flex justify-between px-4 pt-10 md:pb-0 pb-10">
+      <div className="container mx-auto flex justify-between px-4 pt-10 pb-10">
         <div className="md:grow-0 grow">
           <Link href="#" className="text-xl font-bold px-4 py-2 rounded-md">
             Vaultt

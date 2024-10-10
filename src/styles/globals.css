@@ -25,3 +25,8 @@ body {
     text-wrap: balance;
   }
 }
+
+.aboutus {
+  background-image: url('../../public/images/AboutUs.png');
+  background-size: cover;
+}
