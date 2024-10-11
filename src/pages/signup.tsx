@@ -30,7 +30,7 @@ export default function signup() {
             </div>
             <div className="my-3">
               <label htmlFor="email" className="font-semibold">
-                Email Address registration:
+                Email Address:
               </label>
               <input
                 type="email"
