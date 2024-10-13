@@ -42,7 +42,7 @@ const Navbar = () => {
 
         <div className="flex-shrink-0">
           <Link
-            href="#"
+            href="/signup"
             className="text-white font-semibold bg-[#06214a] px-4 py-2 rounded-lg"
           >
             Get Started
