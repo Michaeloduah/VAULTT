@@ -26,9 +26,11 @@ export default function HeroSection() {
             blockchain-based solutions.
           </p>
           <div className="flex md:gap-16 gap-5 md:mt-10 mt-5">
+            <Link href="/signup">
             <button className="text-white font-semibold bg-[#06214a] px-4 py-2 rounded-lg">
               Sign up Now
             </button>
+            </Link>
             <button className="text-[#06214a] font-semibold border-2 border-[#06214a] px-4 py-2 rounded-lg">
               Learn More
             </button>

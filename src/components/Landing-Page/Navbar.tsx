@@ -1,5 +1,7 @@
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
+import Logo_dark from "../../../public/images/Logo-dark.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,11 +11,11 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-[#e9f0ff] sticky top-0 ">
-      <div className="container mx-auto flex justify-between px-4 pt-10 pb-10">
+    <nav className="bg-[#e9f0ff] sticky top-0 shadow-lg">
+      <div className="container mx-auto flex justify-between items-center px-4 pt-5 pb-5 ">
         <div className="md:grow-0 grow">
-          <Link href="#" className="text-xl font-bold px-4 py-2 rounded-md">
-            Vaultt
+          <Link href="#" className="">
+            <Image src={Logo_dark} alt="Logo" className="h-auto w-auto" />
           </Link>
         </div>
 
