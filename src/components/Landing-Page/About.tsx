@@ -35,9 +35,9 @@ export default function About() {
           <h1 className="text-3xl font-black text-[#06214a] text-center">
             Our Partners
           </h1>
-          <div className="flex gap-20 justify-center mt-5">
-            <Image src={Base} alt="Base" className="h-14 w-auto"/>
-            <Image src={WHO} alt="WHO" className="h-14 w-auto"/>
+          <div className="flex md:gap-20 gap-5 justify-center mt-5">
+            <Image src={Base} alt="Base" className="h-12 w-auto"/>
+            <Image src={WHO} alt="WHO" className="h-12 w-auto"/>
           </div>
         </div>
       </div>
